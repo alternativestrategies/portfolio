@@ -25,6 +25,17 @@ h1 {
   }
 }
 
+@keyframes fadeinheadline {
+  0% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
 .navbar {
   position: absolute;
   top: 0;
