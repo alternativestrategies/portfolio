@@ -1,0 +1,50 @@
+@import './header';
+@import './portfolio';
+@import './about';
+@import './contact';
+
+* {
+	box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+canvas {
+  width: 100% !important;
+}
+body {
+  background-color: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+//scroll snap
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+p {
+  font-weight: 300;
+}
+
+footer {
+  max-height: 50px;
+    hr {
+      border-top: 1.1px solid white;
+    }
+    a.fa {
+      font-size: 30px;
+      padding-right: 15px;
+      color: white;
+      text-decoration: none;
+      &:hover{
+        color: rgb(85, 85, 85);
+      }
+    }
+  }
+  .bottom-footer{
+  font-size: 10px;
+  margin-left: 5%;
+  // margin-top: 100px;
+  }

@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Arely's Stationary Box",
+        "description": "An ecommerce site created using React",
+        "url": "https://alternativestrategies.github.io/react-product-page2/",
+        "img": "react-product-page.png"
+    },
+    {
+        "title": "Guessing Game",
+        "description": "A guessing game created using React",
+        "url": "https://alternativestrategies.github.io/guessing-game/",
+        "img": "guess-game.png"
+    },
+    {
+        "title": "London Travel Site",
+        "description": "A travel site originally made with HTML & CSS converted into React.",
+        "url": "https://alternativestrategies.github.io/london/",
+        "img": "london.png"
+
+    },
+    {
+        "title": "Weekly Challenge 1",
+        "description": "First Weekly Challenge created using HTML, CSS & JS",
+        "url": "https://alternativestrategies.github.io/weekly-challenges/",
+        "img": "weekly_challenges1.png"
+
+    },
+    {
+        "title": "Weekly Challenge 2",
+        "description": "Second Weekly Challenge created using HTML, CSS & JS",
+        "url": "https://alternativestrategies.github.io/weekly-challenges2/",
+        "img": "weekly_challenges2.png"
+
+    },
+    {
+        "title": "Weekly Challenge 3",
+        "description": "Fun, interactive Weekly Challenge using HTML, CSS, JS & p5.js library",
+        "url": "https://alternativestrategies.github.io/weekly-challenges3/",
+        "img": "weekly_challenges3.png"
+
+    }
+]

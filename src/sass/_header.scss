@@ -1,0 +1,75 @@
+//title in header
+// $primary-color: rgba(0, 0, 0, 0.7);
+$primary-color: white;
+
+h1 {
+    @media(min-width: 200px){
+      font-size: 1.96em;
+    }
+    @media(min-width: 700px){
+        font-size: 2.5em;
+      }
+    @media(min-width: 900px){
+      font-size: 3rem;
+    }
+    font-weight: 400;
+    position: absolute;
+    text-transform: uppercase;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: $primary-color;
+    animation: 2s linear 0s 1 fadeinheadline;
+  }
+
+//transition for header
+// @keyframes fadeinheadline {
+//     0% {
+//       opacity: 0;
+//     } 
+//     75% {
+//       opacity: 0;
+//     }
+//     100% {
+//       opacity: 1;
+//     }
+// }
+
+//navbar styling
+.navbar {
+  position: absolute;
+  top: 0;
+  animation: 2s linear 0s 1 fadeinheadline;
+  .btn-primary {
+    background-color: inherit;
+    color: white;
+    padding: 0 3px;
+    border: 1px solid white;
+    margin: 0 8px;
+  }
+}
+
+.navbar-light{
+    //link color
+    .navbar-nav .nav-link {
+        color: $primary-color;
+        font-size: 18px;
+        &:hover {
+          color: white;
+        }
+        &.active{
+          color: white;
+        }
+    }
+    //nav toggler styling
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    .navbar-toggler {
+        border: 0;
+        font-size: 1.5rem;
+            &:focus{
+            outline:none;
+        }
+    }
+}
