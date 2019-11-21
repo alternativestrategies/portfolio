@@ -15,9 +15,29 @@
         overflow: hidden;
         object-fit: cover;
             & img{
-            height: 300px;
+            
+            @media (min-width: 300px){
+              object-fit: contain;
+              height: 180px;
+            }
+            @media (min-width: 350px){
+              object-fit: contain;
+              height: 200px;
+            }
+            @media (min-width: 370px){
+              object-fit: contain;
+              height: 210px;
+            }
+            @media (min-width: 400px){
+              // object-fit: contain;
+              height: 230px;
+            }
+            @media (min-width: 500px){
+              height: 278px;
             width: 100%;
             }
+          }
+    
     }
     @media (min-width: 500px) {    
         grid-template-columns: auto;
@@ -64,8 +84,6 @@ font-family: 'Open Sans', sans-serif;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
-
 }
 
 .project-grid-item:hover .overlay{

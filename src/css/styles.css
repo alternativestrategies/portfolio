@@ -9,14 +9,29 @@ h1 {
   color: white;
   animation: 2s linear 0s 1 fadeinheadline;
 }
-@media (min-width: 200px) {
+@media (min-width: 300px) {
   h1 {
-    font-size: 1.96em;
+    font-size: 1.3em;
+  }
+}
+@media (min-width: 360px) {
+  h1 {
+    font-size: 1.44em;
+  }
+}
+@media (min-width: 400px) {
+  h1 {
+    font-size: 1.52em;
+  }
+}
+@media (min-width: 500px) {
+  h1 {
+    font-size: 1.9em;
   }
 }
 @media (min-width: 700px) {
   h1 {
-    font-size: 2.5em;
+    font-size: 2.8em;
   }
 }
 @media (min-width: 900px) {
@@ -83,9 +98,34 @@ h1 {
   overflow: hidden;
   object-fit: cover;
 }
-.project-grid-img img {
-  height: 300px;
-  width: 100%;
+@media (min-width: 300px) {
+  .project-grid-img img {
+    object-fit: contain;
+    height: 180px;
+  }
+}
+@media (min-width: 350px) {
+  .project-grid-img img {
+    object-fit: contain;
+    height: 200px;
+  }
+}
+@media (min-width: 370px) {
+  .project-grid-img img {
+    object-fit: contain;
+    height: 210px;
+  }
+}
+@media (min-width: 400px) {
+  .project-grid-img img {
+    height: 230px;
+  }
+}
+@media (min-width: 500px) {
+  .project-grid-img img {
+    height: 278px;
+    width: 100%;
+  }
 }
 @media (min-width: 500px) {
   .project-grid {
@@ -157,15 +197,39 @@ h1 {
   line-height: 1.7;
   margin: 0 auto;
 }
+@media (min-width: 300px) {
+  .about-text {
+    font-size: 25px;
+    width: 78%;
+  }
+}
+@media (min-width: 340px) {
+  .about-text {
+    font-size: 28px;
+    width: 78%;
+  }
+}
+@media (min-width: 380px) {
+  .about-text {
+    font-size: 38px;
+    width: 88%;
+  }
+}
 @media (min-width: 400px) {
   .about-text {
     font-size: 36px;
-    width: 93%;
+    width: 86%;
   }
 }
 @media (min-width: 767px) {
   .about-text {
     font-size: 50px;
+    width: 62%;
+  }
+}
+@media (min-width: 900px) {
+  .about-text {
+    font-size: 40px;
     width: 62%;
   }
 }

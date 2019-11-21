@@ -6,12 +6,30 @@
 }
 
 .about-text {
+    // 320, 360, 
+    // this is how it should look 
+    @media(min-width: 300px){
+        font-size: 25px;
+        width: 78%;
+    }
+    @media(min-width: 340px){
+        font-size: 28px;
+        width: 78%;
+    }
+    @media(min-width: 380px){
+        font-size: 38px;
+        width: 88%;
+    }
     @media(min-width: 400px){
         font-size: 36px;
-        width: 93%;
+        width: 86%;
     }
     @media(min-width: 767px){
         font-size: 50px;
+        width: 62%;
+    }
+    @media(min-width: 900px){
+        font-size: 40px;
         width: 62%;
     }
     line-height: 1.7;
